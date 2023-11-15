@@ -1,0 +1,100 @@
+#myNavbar:hover {
+    width: 160px;
+}
+
+#myNavbar:hover .my-text {
+    display: inline;
+}
+
+#myNavbar {
+    width: 53px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1000;
+    height: 100vh;
+    font-size: 12px;
+    background-color: white;
+    transition: width 500ms;
+    /*padding-left: 3px;*/
+}
+
+#mobile-navbar {
+    display: none;
+}
+
+.my-text {
+    margin-left: 10px;
+    display: none;
+    color: #1a1e21;
+}
+
+#myNavbar > ul {
+    padding-left: 0rem;
+}
+
+#mobile-navbar > ul {
+    width: 100%;
+    transition: width 1s;
+    list-style-type: none;
+    padding-left: 0px;
+    margin-bottom: 0rem;
+
+}
+
+#mobile-navbar > ul > li {
+    font-size: 10px;
+}
+
+#myNavbar > ul > li {
+    width: 160px;
+    transition: width 1s;
+    padding: 10px 3px;
+    display: flex;
+}
+
+#myNavbar > ul > li > span {
+    text-decoration: none;
+    color: black;
+}
+
+#mobile-navbar > ul > li a {
+    text-decoration: none;
+    color: black;
+}
+
+.aaaa:hover {
+    cursor: pointer;
+    background-color: rgba(155, 155, 155, 0.66);
+}
+
+.log-out:hover {
+    cursor: pointer;
+    background-color: rgba(155, 155, 155, 0.66);
+}
+
+@media screen and  (max-width: 769px) {
+    #mobile-navbar {
+        bottom: 0 !important;
+        display: flex !important;
+        background-color: white;
+        border-top: solid 0.5px black;
+        width: 100%;
+        position: fixed;
+        z-index: 1000;
+        padding: 4px;
+    }
+
+    #myNavbar {
+        display: none !important;
+    }
+}
+
+.container {
+    /*display: inline;*/
+}
+
+.log-out {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+}

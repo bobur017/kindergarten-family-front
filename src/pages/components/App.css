@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+}
+main {
+  width: 100%;
+  height: 85.5vh;
+  padding: 20px;
+  overflow-x:auto;
+}
+main::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+main::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+main::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #b6b6b6;
+}
+
+/* Handle on hover */
+main::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.sidebar {
+  color: #000;
+  background: #fff;
+  height: 85vh;
+  width: 200px;
+  transition: all 0.5s;
+  border-right-style: solid;
+  border-width: 0.5px;
+  position: relative;
+}
+#link2 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+.logo {
+  font-size: 30px;
+}
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link {
+  display: flex;
+  color: #000000;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+.link:hover {
+  background: lightskyblue;
+  color: #000;
+  transition: all 0.5s;
+}
+.active {
+  background: lightskyblue;
+  color: #000;
+}
+
+.link_text {
+  font-size: 15px;
+}
+.rightLeft:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.my-shadow-style {
+  height: 8vh;
+  text-align: center;
+  vertical-align: middle;
+}
+.my-border {
+  border-radius: 25px;
+  border: solid 0.5px black;
+}
+.my-hover :hover {
+  cursor: pointer;
+}
+.my-icons {
+  color: aliceblue !important;
+}
+.iconTextPosition {
+  color: white !important;
+  border-radius: 45px !important;
+}
+.bottom-line{
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  border-bottom: solid 1px black;
+}
+
+.my-Hover:hover{
+  cursor: pointer;
+}
+.my-card{
+  border: #11f51f solid 1px;
+}
+.my-table-first{
+  font-size: 10px;
+  position: center;
+}
+
+.headLoader {
+  position: fixed;
+  top: 0;
+}
+
+
+.loader {
+  text-align: center;
+  background-color: #f8f8f8AD;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1000;
+}
+.tdColor{
+  padding: 1px;
+  border-radius: 20px;
+  border: green solid 1px;
+}
+.thBackground{
+  background-color: #d7d7d7 !important;
+}
+.childrenColor{
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 5px;
+  background-color: #bcfcd4;
+}
+.menuColor{
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 5px;
+  border-radius: 30px;
+  border: green solid 1px;
+}
+
+.scrollPdf{
+  height: 84vh;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+@media screen and (max-width:458px) {
+  .info-text{
+    font-size: 10px ;
+  }
+}

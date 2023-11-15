@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="src/tiktok.class.js"></script>
+
+
+
+<script>
+    const TikTok = new JSTikTok('');
+    TikTok.get().then(function(){
+        //Log the video title
+        console.log(TikTok.datas.video.title);
+
+        //Start download
+        TikTok.video_download();
+    });
+</script>
+</body>
+</html>

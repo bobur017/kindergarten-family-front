@@ -1,0 +1,66 @@
+
+.kicon {
+  width: 3rem;
+  height: 2rem;
+  display: block;
+  &-menu {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("./icons/menu.svg");
+  }
+  &-home {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("./icons/home.svg");
+  }
+  &-kids {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("./icons/kids.svg");
+  }
+  &-messageOpen {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("./icons/messageOpen.svg");
+  }
+  &-messageClose {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("./icons/messageClose.svg");
+  }
+  &-message {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("./icons/message.svg");
+  }
+  &-pay {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("./icons/pay.svg");
+  }
+  &-report {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("./icons/report.svg");
+  }
+  &-settings {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("./icons/settings.svg");
+  }
+  &-user {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("./icons/user.svg");
+  }
+  &-vectorUp {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("./icons/vectorUp.svg");
+  }
+  &-vectorDown {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("./icons/vectorDown.svg");
+  }
+}
